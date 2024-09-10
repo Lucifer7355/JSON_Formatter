@@ -1,0 +1,21 @@
+version: '3'
+services:
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "3000:3000"  # Map backend to port 3000
+    volumes:
+      - ./backend:/app
+    environment:
+      - NODE_ENV=production
+
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "8080:8080"  # Map frontend to port 8080
+    volumes:
+      - ./frontend:/app
+    environment:
+      - NODE_ENV=production

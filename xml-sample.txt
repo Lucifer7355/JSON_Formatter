@@ -1,0 +1,7 @@
+<people>
+    <person>
+        <name>John Doe</name>
+        <age>28</age>
+        <city>New York</city>
+    </person>
+</people>

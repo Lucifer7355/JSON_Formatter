@@ -1,0 +1,7 @@
+npm install --save-dev webpack webpack-cli
+npm install dotenv --save
+npx webpack --config webpack.config.js
+
+=======================================
+
+npx http-server .

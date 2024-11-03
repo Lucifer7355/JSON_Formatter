@@ -40,3 +40,11 @@ To use these tools, you can simply run the Docker Compose file included in this 
    ```bash
    git clone https://github.com/Lucifer7355/JSON_Formatter.git
    cd JSON_Formatter
+
+2. **Run Docker Compose**
+    ```bash
+    docker-compose up
+
+3. **Access the Tools**
+    ```bash
+    After running the above command, the tools will be accessible at the specified endpoints in your browser or through API calls, depending on how they are configured in the docker-compose.yml.
